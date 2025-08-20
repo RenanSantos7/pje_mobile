@@ -1,0 +1,12 @@
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: var(--colorBg);
+    flex: 1;
+    padding: 1rem;
+}

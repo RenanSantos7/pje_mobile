@@ -1,1 +1,31 @@
-@import url("https://renan-santos.netlify.app/styles/reset.css");
+@import url('https://renan-santos.netlify.app/styles/reset.css');
+
+:root {
+	--colorMain: hsl(197, 100%, 33%);
+	--colorMainDark: hsl(218, 22%, 41%);
+	--colorBg: hsl(202.5, 25%, 94%);
+	--colorBgCard: hsl(0, 0%, 100%);
+	--colorText: hsl(0, 0%, 56%);
+	--colorTextContrast: hsl(0, 0%, 100%);
+	--colorTitle: hsl(0, 0%, 15%);
+}
+
+div, main, section, article, figure {
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Ubuntu,
+		'Adwaita Sans',
+		'Inter',
+		'Open Sans',
+		'Helvetica Neue',
+		sans-serif;
+}

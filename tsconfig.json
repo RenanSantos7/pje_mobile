@@ -9,14 +9,20 @@
 		"useDefineForClassFields": true,
 
 		//Modules
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
+		"baseUrl": "src",
+		"paths": {
+			"@assets/*": ["assets/*"],
+			"@components/*": ["components/*"],
+			"@pages/*": ["pages/*"],
+			"@types": ["types/index.tsx"]
+		},
+		"module": "esnext",
+		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"allowImportingTsExtensions": true,
+		"allowSyntheticDefaultImports": true,
 
-		// Js Support
-
-		//Emit
+		//Emitd
 		"noEmit": true,
 
 		// Interop Constraints
